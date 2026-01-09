@@ -1,10 +1,12 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "charybdis-layouts.dtsi"
+#include "charybdis_led.dtsi"
 
 / {
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical-layout = &charybdis_physical_layout;
+	zmk,underglow = &led_strip;
     };
 
     vbatt: vbatt {
@@ -37,4 +39,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)         RC(3,6)  RC(3,7) RC(3,8)
     	compatible = "zmk,input-listener";
     	status = "disabled";
     };
+
+
 };
+
