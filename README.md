@@ -1,3 +1,12 @@
+
+## Fork Notes
+
+This repo didn't work when I forked it, so I made a few modifications which I believe were needed to conform with changes in ZMK.  This repo currently (Jan 2026) builds with the latest ZMK.
+
+This repo is intended for Charybdis V2 4x6 keyboards with RGB lighting and using the Nice!Nano V2 board.  With no changes, both BT and wired are suppored using the right side as the main controller (BT central) that will communicate and proxy messages for the left side.
+
+
+
 [![.github/workflows/build.yml](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware/actions/workflows/build.yml/badge.svg)](https://github.com/280Zo/charybdis-wireless-mini-zmk-firmware/actions/workflows/build.yml)
 
 ## Intro
